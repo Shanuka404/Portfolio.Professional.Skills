@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speaking Skills</title>
+    <link rel="stylesheet" href="CVWriting.css">
+
+    <script>
+        function toggleDiplomaResults1() {
+            var diplomaSection = document.getElementById("diploma-section1");
+            if (diplomaSection.style.display === "none" || diplomaSection.style.display === "") {
+                diplomaSection.style.display = "block";
+            } else {
+                diplomaSection.style.display = "none";
+            }
+        }
+
+        function toggleDiplomaResults2() {
+            var diplomaSection = document.getElementById("diploma-section2");
+            if (diplomaSection.style.display === "none" || diplomaSection.style.display === "") {
+                diplomaSection.style.display = "block";
+            } else {
+                diplomaSection.style.display = "none";
+            }
+        }
+        function toggleDiplomaResults3() {
+            var diplomaSection = document.getElementById("diploma-section3");
+            if (diplomaSection.style.display === "none" || diplomaSection.style.display === "") {
+                diplomaSection.style.display = "block";
+            } else {
+                diplomaSection.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="fixed-navbar">
+                <div class="navbar">
+                    <div class="brand">
+                        <a href="#">Professional Skills</a>
+                    </div>
+                    <ul class="navbar">
+                        <li class="nav-item dropdown">
+                            <a href="javascript:void(0)" class="dropbtn">Lectures</a>
+                            <div class="dropdown-content">
+                                <a href="Introduction.html">Introduction</a>
+                                <a href="CVWriting.html">CV Writing</a>
+                                <a href="Interview.html">Interview Skills</a>
+                                <a href="PortfolioWriting.html">Portfolio Writing</a>
+                                <a href="Speaking.html">Speaking Skills</a>
+                                <a href="EmailWriting.html">Email Writing</a>
+                                <a href="NegotiationSkills.html">Negotiation Skills</a>
+                                <a href="TelephoneEtiquettes.html">Telephone Etiquettes</a>
+                                <a href="AbstractWriting.html">Abstract Writing</a>
+                                <a href="ProposalWriting.html">Proposal Writing</a>
+                                <a href="EmotionalIntelligence.html">Emotional Intelligence</a>
+                                <a href="EtiquetteProfessionalism.html">Etiquette, professionalism</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a href="Profile.html">Profile</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+<br><br><br>
+
+    <h1 class="logo">Speaking Skills</h1>
+<br>
+    <img src="Image/speaking.jpg" alt="Profile Picture" class="ic1">
+
+
+    <a href="PDF/SpeakingSkills.pdf" target="_blank" class="view-cv">Speaking Skills-meetings PDF</a>
+
+    <a onclick="toggleDiplomaResults1()" target="_blank" class="view-cv">Summary</a>
+    <div id="diploma-section1" style="display: none;">
+        <section class="lecture-section" id="research">
+            <h2 class="subtopic">Summary</h2>
+            <p class="content">
+                •  Meetings: Understanding the language and concepts used in meetings.
+                <br><br>•  Chairing a Meeting: Tips on conducting effective meetings confidently.
+                <br><br>•  Meeting Types: Different types of meetings and their purposes.
+            </p>
+        </section>
+    </div>
+    
+    <a onclick="toggleDiplomaResults2()" target="_blank" class="view-cv">What I learned</a>
+    <div id="diploma-section2" style="display: none;">
+        <section class="lecture-section" id="research">
+            <h2 class="subtopic">I Learned....</h2>
+            <p class="content">
+                •  Key roles in meetings, like chairing and attending, and the importance of preparation.
+                <br><br>•  Recognizing various types of meetings and their unique dynamics.
+                <br><br>•  The significance of effective communication and maintaining focus during discussions.
+            </p>
+        </section>
+    </div>
+
+    <a onclick="toggleDiplomaResults3()" target="_blank" class="view-cv">How, I can apply them</a>
+    <div id="diploma-section3" style="display: none;">
+        <section class="lecture-section" id="research">
+            <h2 class="subtopic">How can i apply them..</h2>
+            <p class="content">
+                •  Chairing Meetings: Prepare agendas, ensure participation, manage time effectively.
+                <br><br>•  Participating in Meetings: Being attentive, contributing positively, and respecting others' opinions.
+                <br><br>•  Understanding Meeting Types: Identifying and adapting to the purpose and style of different meetings.
+            </p>
+        </section>
+    </div>
+    <div class="back-next-icons">
+        <a href="PortfolioWriting.html" class="back-icon">
+            <img src="Image/path_to_back_icon_image.png" alt="Back Icon">
+        </a>
+        <a href="EmailWriting.html" class="next-icon">
+            <img src="Image/path_to_next_icon_image.png" alt="Next Icon">
+        </a>
+    </div>
+    <footer>
+        <p>&copy; 2023 Professional Skills Portfolio</p>
+    </footer>
+</body>
+
+</html>

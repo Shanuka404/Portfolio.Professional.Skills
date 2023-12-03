@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="CVWriting.css">
+
+    <script>
+        function toggleDiplomaResults1() {
+            var diplomaSection = document.getElementById("diploma-section1");
+            if (diplomaSection.style.display === "none" || diplomaSection.style.display === "") {
+                diplomaSection.style.display = "block";
+            } else {
+                diplomaSection.style.display = "none";
+            }
+        }
+
+        function toggleDiplomaResults2() {
+            var diplomaSection = document.getElementById("diploma-section2");
+            if (diplomaSection.style.display === "none" || diplomaSection.style.display === "") {
+                diplomaSection.style.display = "block";
+            } else {
+                diplomaSection.style.display = "none";
+            }
+        }
+        function toggleDiplomaResults3() {
+            var diplomaSection = document.getElementById("diploma-section3");
+            if (diplomaSection.style.display === "none" || diplomaSection.style.display === "") {
+                diplomaSection.style.display = "block";
+            } else {
+                diplomaSection.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="fixed-navbar">
+                <div class="navbar">
+                    <div class="brand">
+                        <a href="#">Professional Skills</a>
+                    </div>
+                    <ul class="navbar">
+                        <li class="nav-item dropdown">
+                            <a href="javascript:void(0)" class="dropbtn">Lectures</a>
+                            <div class="dropdown-content">
+                                <a href="Introduction.html">Introduction</a>
+                                <a href="CVWriting.html">CV Writing</a>
+                                <a href="Interview.html">Interview Skills</a>
+                                <a href="PortfolioWriting.html">Portfolio Writing</a>
+                                <a href="Speaking.html">Speaking Skills</a>
+                                <a href="EmailWriting.html">Email Writing</a>
+                                <a href="NegotiationSkills.html">Negotiation Skills</a>
+                                <a href="TelephoneEtiquettes.html">Telephone Etiquettes</a>
+                                <a href="AbstractWriting.html">Abstract Writing</a>
+                                <a href="ProposalWriting.html">Proposal Writing</a>
+                                <a href="EmotionalIntelligence.html">Emotional Intelligence</a>
+                                <a href="EtiquetteProfessionalism.html">Etiquette, professionalism</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a href="Profile.html">Profile</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+<br><br><br>
+
+    <h1 class="logo">CV Writing</h1>
+<br>
+    <img src="Image/cv.png" alt="Profile Picture" class="ic">
+
+
+    <a href="PDF/CV_writing.pdf" target="_blank" class="view-cv">CV Writing PDF</a>
+
+    <a onclick="toggleDiplomaResults1()" target="_blank" class="view-cv">Summary</a>
+    <div id="diploma-section1" style="display: none;">
+        <section class="lecture-section" id="research">
+            <h2 class="subtopic">Summary</h2>
+            <p class="content">
+                •  A CV is a document that summarizes your education, work experience, and skills. It is important to have a well-crafted CV because it is your first impression on potential employers. 
+                <br><br>•  The lesson plan teaches you how to write a CV that is clear, concise, and tailored to the specific job you are applying for. 
+                <br><br>•  The lesson plan also covers the importance of research and how to avoid common mistakes. There is also a practical exercise where you will create or update your own CV.
+            </p>
+        </section>
+    </div>
+    
+    <a onclick="toggleDiplomaResults2()" target="_blank" class="view-cv">What I learned</a>
+    <div id="diploma-section2" style="display: none;">
+        <section class="lecture-section" id="research">
+            <h2 class="subtopic">I Learned....</h2>
+            <p class="content">
+                •  A CV is a document that summarizes your education, work experience, skills, and achievements.
+                <br><br>•  A well-crafted CV can help you make a positive first impression on potential employers and increase your chances of getting shortlisted for interviews.
+                <br><br>•  To make your CV effective, you should tailor it to the specific job you're applying for.
+                <br><br>•  Your CV should be clear, concise, and easy to read.
+                <br><br>•  You should include relevant keywords in your CV so that it can be picked up by applicant tracking systems (ATS).
+            </p>
+        </section>
+    </div>
+
+    <a onclick="toggleDiplomaResults3()" target="_blank" class="view-cv">How, I can apply them</a>
+    <div id="diploma-section3" style="display: none;">
+        <section class="lecture-section" id="research">
+            <h2 class="subtopic">How can i apply them..</h2>
+            <p class="content">
+                •  When you're applying for a job, take the time to tailor your CV to the position. This means highlighting the skills and experience that are most relevant to the job.
+                <br><br>•  Use keywords from the job description throughout your CV. This will help your CV get noticed by ATS.
+                <br><br>•  Make sure your CV is clear, concise, and easy to read. Use a standard font and font size, and make sure your spacing is consistent.
+                <br><br>•  Proofread your CV carefully before you submit it. Typos and grammatical errors can make you look unprofessional.
+                <br><br>•  Use a professional summary to highlight your most relevant skills and experience.
+                <br><br>•  Quantify your achievements whenever possible. This will help potential employers see the impact you've had in your previous roles.
+                <br><br>•  Use a consistent format throughout your CV. This will make your CV look polished and professional.
+                <br><br>•  Get feedback on your CV from friends, family, or career counselors. This can help you identify any areas that need improvement.
+                
+            </p>
+        </section>
+    </div>
+
+    <div class="back-next-icons">
+        <a href="Introduction.html" class="back-icon">
+            <img src="Image/path_to_back_icon_image.png" alt="Back Icon">
+        </a>
+        <a href="Interview.html" class="next-icon">
+            <img src="Image/path_to_next_icon_image.png" alt="Next Icon">
+        </a>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Professional Skills Portfolio</p>
+    </footer>
+</body>
+
+</html>

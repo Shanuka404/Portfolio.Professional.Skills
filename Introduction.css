@@ -1,0 +1,202 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.back-next-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f2f2f2; /* Background color for the icons container */
+}
+
+.back-icon img,
+.next-icon img {
+    width: 30px; /* Adjust the size as needed */
+    height: auto;
+    /* Additional styling for the icons if required */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.ic1 {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+  height: 50%;
+}
+.logo {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+}
+.lecture-section {
+    padding: 30px;
+    border: 3px solid #2e6da4;
+    margin: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+.view-cv {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 50%;
+}
+.view-cv:hover {
+    background-color: #555;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the items */
+    padding: 30px 20px; /* Increased padding to adjust the height */
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 10px;
+    order: 1;
+}
+
+.navbar li.nav-item {
+    order: 2;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar a:hover {
+    color: #ffcc00;
+}
+
+.navbar .brand {
+    order: -1;
+    margin-right: auto;
+}
+
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    z-index: 1000;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify; /* Justify the text */
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    font-size: 24px;
+}
+
+.section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.section ul li {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.section:nth-child(odd) {
+    background-color: #f9f9f9; /* Light gray for odd sections */
+    border: 1px solid #ccc; /* Border color */
+    padding: 10px; /* Add some padding */
+}
+
+.section:nth-child(even) {
+    background-color: #e0e0e0; /* Lighter gray for even sections */
+    border: 1px solid #ccc; /* Border color */
+    padding: 10px; /* Add some padding */
+    box-shadow: 2px 2px 5px #888888; /* Add a subtle 3D effect */
+}
+
+.subsection {
+    margin-bottom: 20px;
+}
+
+.subsection h3 {
+    font-size: 20px;
+}
+
+.examples {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,188 @@
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.view-cv {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 50%;
+}
+.logo {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+}
+.view-cv:hover {
+    background-color: #555;
+}
+.column {
+    width: 48%; /* Adjust width to leave some space between columns */
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+.left {
+    order: 1; /* Set the left column to be first */
+}
+
+.right {
+    order: 2; /* Set the right column to be second */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.ic {
+    display: block;
+    margin: 0 auto;
+}
+.ic1 {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+  height: 50%;
+}
+.back-next-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f2f2f2; /* Background color for the icons container */
+}
+
+.back-icon img,
+.next-icon img {
+    width: 30px; /* Adjust the size as needed */
+    height: auto;
+    /* Additional styling for the icons if required */
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 10px;
+    order: 1;
+}
+
+.navbar li.nav-item {
+    order: 2;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar a:hover {
+    color: #ffcc00;
+}
+
+.navbar .brand {
+    order: -1;
+    margin-right: auto;
+}
+
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    z-index: 1000;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+header {
+    background-color: #2e6da4;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.lecture-title {
+    margin: 0;
+}
+
+.lecture-section {
+    padding: 30px;
+    border: 3px solid #2e6da4;
+    margin: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+.subtopic {
+    font-size: 24px;
+    color: #2e6da4;
+}
+#research,
+#job-description {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify; /* Justify the text */
+}
+.content {
+    font-size: 18px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}

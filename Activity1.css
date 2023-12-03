@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.view-cv {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.view-cv:hover {
+    background-color: #555;
+}
+
+.frame {
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px #888888;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the items */
+    padding: 30px 20px; /* Increased padding to adjust the height */
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 10px;
+    order: 1;
+}
+
+.navbar li.nav-item {
+    order: 2;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar a:hover {
+    color: #ffcc00;
+}
+
+.navbar .brand {
+    order: -1;
+    margin-right: auto;
+}
+
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    z-index: 1000;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify; /* Justify the text */
+}
+.title {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+}
+.technical {
+    border-color: #ff6600;
+}
+
+.soft {
+    border-color: #0099cc;
+}
+
+.transferable {
+    border-color: #66cc66;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+li strong {
+    font-weight: bold;
+    color: #333;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
