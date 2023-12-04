@@ -10,7 +10,7 @@
 <body>
     
 
-    <a href="Profile.html" target="_blank" class="view-cv">Click here to Visit Profile</a>
+    <a href="Profile.html" target="_blank" class="view-cv" align="left">Click here to Visit Profile</a>
 
 </body>
 
