@@ -10,7 +10,7 @@
 <body>
     
 
-    <a href="Profile.html" target="_blank" class="view-cv">View CV</a>
+    <a href="Profile.html" target="_blank" class="view-cv">Profile</a>
 
     <footer>
         <p>&copy; 2023 Professional Skills Portfolio</p>
